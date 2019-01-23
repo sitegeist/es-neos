@@ -1,0 +1,41 @@
+{
+  "name": "@sitegeist/es-neos-eslint",
+  "version": "1.0.0",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-xo": "^0.26.0",
+    "eslint-config-xo-react": "^0.18.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": [
+      "xo/esnext",
+      "xo-react"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true
+    },
+    "rules": {
+      "comma-dangle": ["error", {
+        "arrays": "only-multiline",
+        "objects": "only-multiline"
+      }],
+      "no-unused-expressions": ["error", {
+        "allowShortCircuit": true
+      }],
+      "react/no-danger": false,
+      "quotes": ["error", "single", {
+        "allowTemplateLiterals": true
+      }]
+    },
+    "globals": {
+      "renderComponent": true
+    }
+  }
+}
