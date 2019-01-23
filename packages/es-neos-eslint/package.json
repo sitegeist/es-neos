@@ -1,5 +1,5 @@
 {
-  "name": "@sitegeist/es-neos-eslint",
+  "name": "@sitegeist/eslint-config-es-neos-eslint",
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
