@@ -1,0 +1,11 @@
+{
+  "name": "@sitegeist/es-neos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sitegeist/es-neos.git",
+  "author": "Wilhelm Behncke <behncke@sitegeist.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.10.7"
+  }
+}
