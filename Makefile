@@ -14,4 +14,4 @@ release:
 	lerna publish
 
 canary:
-	lerna publish --canary
+	lerna publish --canary --force-publish
