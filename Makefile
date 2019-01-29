@@ -9,3 +9,7 @@ export PATH := ./node_modules/.bin:$(PATH)
 ###############################################################################
 bootstrap:
 	lerna bootstrap
+
+release:
+	lerna version
+	lerna publish
