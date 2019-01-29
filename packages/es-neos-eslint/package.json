@@ -9,5 +9,8 @@
     "eslint-config-xo": "^0.26.0",
     "eslint-config-xo-react": "^0.18.0",
     "eslint-plugin-react": "^7.11.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

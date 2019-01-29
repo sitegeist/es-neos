@@ -11,5 +11,4 @@ bootstrap:
 	lerna bootstrap
 
 release:
-	lerna version
 	lerna publish
