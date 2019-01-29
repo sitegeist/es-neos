@@ -12,3 +12,6 @@ bootstrap:
 
 release:
 	lerna publish
+
+canary:
+	lerna publish --canary
