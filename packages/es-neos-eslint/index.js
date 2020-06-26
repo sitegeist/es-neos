@@ -1,10 +1,11 @@
 "use strict";
 
-module.exports = {
+export default {
 	"parser": "babel-eslint",
 	"extends": [
 		"xo/esnext",
-		"xo-react"
+		"xo-react",
+		"xo-typescript"
 	],
 	"env": {
 		"browser": true,
