@@ -1,6 +1,6 @@
 "use strict";
 
-export default {
+module.exports = {
 	"parser": "babel-eslint",
 	"extends": [
 		"xo/esnext",
