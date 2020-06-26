@@ -5,7 +5,12 @@
   "repository": "git@github.com:sitegeist/es-neos.git",
   "author": "Wilhelm Behncke <behncke@sitegeist.de>",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "lerna": "^3.10.7"
-  }
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {}
 }

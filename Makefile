@@ -8,6 +8,7 @@ export PATH := ./node_modules/.bin:$(PATH)
 #                                 MONOREPO                                    #
 ###############################################################################
 bootstrap:
+	yarn
 	lerna bootstrap
 
 release:
